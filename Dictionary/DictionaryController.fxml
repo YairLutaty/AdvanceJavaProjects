@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="406.0" prefWidth="728.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DictionaryController">
+   <children>
+      <Button fx:id="AddButton" layoutX="74.0" layoutY="48.0" mnemonicParsing="false" onAction="#AddPressed" prefHeight="53.0" prefWidth="123.0" text="Add" />
+      <Button fx:id="ChangeButton" layoutX="74.0" layoutY="185.0" mnemonicParsing="false" onAction="#ChangePressed" prefHeight="53.0" prefWidth="123.0" text="Change" />
+      <Button fx:id="DeleteButton" layoutX="74.0" layoutY="117.0" mnemonicParsing="false" onAction="#DeletePresed" prefHeight="53.0" prefWidth="123.0" text="Delete" />
+      <TextField fx:id="ExpressionTextField" layoutX="266.0" layoutY="74.0" prefHeight="40.0" prefWidth="442.0" />
+      <Text layoutX="266.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Expression:" wrappingWidth="98.13671875" />
+      <Text layoutX="266.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Expression meaning:" wrappingWidth="142.80340576171875" />
+      <Button fx:id="SearchButon" layoutX="74.0" layoutY="253.0" mnemonicParsing="false" onAction="#SearchPressed" prefHeight="53.0" prefWidth="123.0" text="Search" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <TextField fx:id="ExpressionMeaningTextField" layoutX="266.0" layoutY="150.0" prefHeight="53.0" prefWidth="442.0" />
+      <Button fx:id="PreviousWordButton" layoutX="25.0" layoutY="323.0" mnemonicParsing="false" onAction="#PreviousWordPressed" prefHeight="40.0" prefWidth="98.0" text="Previous word" />
+      <Button fx:id="NextWordButton" layoutX="148.0" layoutY="323.0" mnemonicParsing="false" onAction="#NextWordPressed" prefHeight="40.0" prefWidth="98.0" text="Next word" />
+      <Label fx:id="LableReturn" alignment="TOP_LEFT" layoutX="266.0" layoutY="237.0" prefHeight="126.0" prefWidth="442.0" textOverrun="CLIP" wrapText="true" />
+      <Text layoutX="266.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Response:" wrappingWidth="142.80340576171898" />
+   </children>
+</Pane>
