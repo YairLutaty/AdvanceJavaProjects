@@ -1,7 +1,5 @@
 # Airport Project
 
-Overview
-
 This Java program simulates an airport flight control system, where flights depart from one airport and land at another while managing runway availability. It utilizes multithreading to handle multiple flights concurrently.
 
 How It Works:
